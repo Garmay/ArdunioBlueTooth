@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ShangRenYang/Downloads/BluetoothArduinoAndroid-master1/app/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library-circular/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3dfc7e44f8fde989ba4e8a5fdde34d9a32447c6">
+        <dex dex="/Users/ShangRenYang/Downloads/BluetoothArduinoAndroid-master1/app/build/intermediates/pre-dexed/debug/classes-5d5b1ca6595db19c146e1910957b61f5d16eaaec.jar" />
+    </item>
+    <item
+        jar="/Users/ShangRenYang/Downloads/BluetoothArduinoAndroid-master1/app/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="698b40a43ecff2ebadc58b019ae236edd053fc67">
+        <dex dex="/Users/ShangRenYang/Downloads/BluetoothArduinoAndroid-master1/app/build/intermediates/pre-dexed/debug/classes-9d2a4751cc1d67a8e8a06f8c72058f2de6c9e3b7.jar" />
+    </item>
+
+</items>

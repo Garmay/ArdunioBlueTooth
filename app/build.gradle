@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.mlst.bluetootharduino"
+        minSdkVersion 14
+        targetSdkVersion 14
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    dependencies {
+        // of course, do not write x.x.x but the version number
+        compile 'com.github.castorflex.smoothprogressbar:library:1.0.0'
+        // or
+        compile 'com.github.castorflex.smoothprogressbar:library-circular:1.0.0'
+    }
+}

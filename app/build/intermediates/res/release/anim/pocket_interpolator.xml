@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<accelerateInterpolator
+    android:factor="1.8"
+    xmlns:android="http://schemas.android.com/apk/res/android"/><!-- From: file:/Users/ShangRenYang/Downloads/BluetoothArduinoAndroid-master1/app/src/main/res/anim/pocket_interpolator.xml -->

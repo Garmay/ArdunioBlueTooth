@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="東海大學 資訊工程學系"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:padding="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer">
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+                android:id="@+id/s_progress"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:indeterminate="true"
+                app:spb_interpolator="spb_interpolator_acceleratedecelerate"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gamennovation"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="#ff333333"
+                android:textSize="40sp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#55000000"
+                android:padding="12dp"
+                android:text="曾經連線的裝置"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <ListView
+                android:id="@+id/pairedDevices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:background="#aaf0f0f0" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#55000000" android:padding="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="可以連線的裝置"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <ListView
+                android:id="@+id/availableDevices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#aaf0f0f0"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout><!-- From: file:/Users/ShangRenYang/Downloads/BluetoothArduinoAndroid-master1/app/src/main/res/layout/main.xml -->
