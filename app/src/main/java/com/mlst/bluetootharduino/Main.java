@@ -81,6 +81,7 @@ public class Main extends Activity {
         availableDevicesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
         availableDevices.setAdapter(availableDevicesAdapter);
 
+
         sProgress = (SmoothProgressBar) findViewById(R.id.s_progress);
 
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
